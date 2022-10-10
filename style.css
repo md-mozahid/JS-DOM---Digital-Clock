@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to right, rgba(231, 76, 60, .9), rgba(41, 128, 185, .9));
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+#clock {
+    font-size: 100px;
+    color: #1ABC9C;
+    background: linear-gradient(to left, rgba(231, 76, 60, .9), rgba(41, 128, 185, .9));
+    padding: 35px 60px;
+    border-radius: 15px;
+    /* border: 5px solid #fff; */
+    box-shadow: 0 0 20px #48C9B0,
+                0 0 40px #48C9B0;
+}
